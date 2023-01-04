@@ -6,3 +6,4 @@ regex==2022.3.15
 xlrd==2.0.1
 xlsxwriter==3.0.3
 streamlit==1.13.0
+openpyxl==3.0.9
