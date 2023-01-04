@@ -89,7 +89,7 @@ def GetTopTimes():
 
 with st.container():
     st.title('Top Times for Women')
+    st.write('Click button to generate table')
     if st.button('Update Times'):
         GetTopTimes()
-    
-    st.table(pd.read_excel('pages\midseason_toptimes.xlsx'))
+        st.table(pd.read_excel('pages\midseason_toptimes.xlsx'))
