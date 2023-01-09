@@ -15,7 +15,7 @@ with st.container():
         '200 Fly', '200 IM', '400 IM')
     )
 
-top_times = pd.read_csv('MPSF_' + gen + '.csv', index_col=False).drop(columns='Unnamed: 0')
+top_times = pd.read_csv('MPSF_' + gen.lower() + '.csv', index_col=False).drop(columns='Unnamed: 0')
 
 col1, col2 = st.columns(2)
 
