@@ -132,4 +132,4 @@ with st.container():
     ).interactive()
 
     
-    st.altair_chart(plot)
+    st.altair_chart(plot, use_container_width=True)
