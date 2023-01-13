@@ -9,6 +9,11 @@ with st.container():
         'Gender:',
         ('Men', 'Women')
     )
+    if gen == 'Men':
+        gen2 = 'Male'
+    if gen == 'Women':
+        gen2 = 'Female'
+
     event = st.selectbox(
         'Event:',
         ('50 Fr', '100 Fr', '200 Fr', '500 Fr', '1650 Fr',
@@ -116,7 +121,7 @@ with col2:
     st.write('Scoring break down for all events:')
     st.table(top_times.groupby('Team')['Points'].sum().sort_values(ascending=False))
 
-
+# visual
 with st.container():
     plot = alt.Chart(top_times).mark_bar().encode(
         x='sum(Points)',
@@ -131,5 +136,37 @@ with st.container():
         height=500
     ).interactive()
 
-    
+    st.write('Plot of points by event')
     st.altair_chart(plot, use_container_width=True)
+
+    # indivdual points
+    x = top_times['Name'].value_counts()
+    x = pd.DataFrame(data=x).reset_index().rename(columns={'index':'Name', 'Name':'Number of Events'})
+    num_events = pd.merge(top_times, x, on='Name', how='outer')
+    pts = num_events.groupby(['Name'])['Points'].sum()
+    pts = pd.DataFrame(data=pts).reset_index().rename(columns={'Points':'Total Points'})
+    final = pd.merge(num_events, pts, on='Name', how='outer').sort_values(by='Number of Events', ascending=False)
+
+    if gen == 'Women':
+        team_list = ['University of Hawaii', 'UC San Diego', 'UC Santa Barbara',
+       'University of San Diego', 'Brigham Young University',
+       'California State University Bakersfield',
+       'University of California, Davis', 'University of Incarnate Word',
+       'Cal Poly', 'University of the Pacific']
+    if gen == 'Men':
+        team_list = ['University of Hawaii', 'UC San Diego', 'UC Santa Barbara', 
+        'Brigham Young University', 'California State University Bakersfield',
+       'University of Incarnate Word', 'Cal Poly', 'University of the Pacific']
+
+    team = st.selectbox(
+        'Team:',
+        team_list
+    )
+    
+    show_final = final[(final['Team'] == team) & (final['Gender'] == gen2)].drop(columns=['Gender', 'Team'])
+    show_final = show_final[show_final['Name'].str.contains(team) == False]
+
+    st.write('Number of events per swimmer:')
+    st.table(show_final)
+
+
