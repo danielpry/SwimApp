@@ -1,0 +1,386 @@
+,Place,Name,Event,Team,Time,Points,Gender
+0,1,"Transom, Laticia-Leigh",50 Freestyle SCY,University of Hawaii,22.47,20.0,Female
+1,2,"Nelson, Holly",50 Freestyle SCY,University of Hawaii,22.90,17.0,Female
+2,3,"Renner, Miranda",50 Freestyle SCY,UC San Diego,22.97,16.0,Female
+3,4,"Statler, Nina",50 Freestyle SCY,UC Santa Barbara,23.21,15.0,Female
+4,5,"Phillips, Jordan",50 Freestyle SCY,UC San Diego,23.23,14.0,Female
+5,6,"Hubka, Rachel",50 Freestyle SCY,University of San Diego,23.25,13.0,Female
+6,7,"Williams, Halli",50 Freestyle SCY,Brigham Young University,23.28,12.0,Female
+7,8,"Popham, Mikayla",50 Freestyle SCY,California State University Bakersfield,23.33,11.0,Female
+8,9,"Lee, Anna",50 Freestyle SCY,"University of California, Davis",23.40,9.0,Female
+9,10,"Oyler, Rachel",50 Freestyle SCY,Brigham Young University,23.51,7.0,Female
+10,11,"Odgers, Josette",50 Freestyle SCY,UC San Diego,23.52,6.0,Female
+11,12,"Nibarger, Reagan",50 Freestyle SCY,UC Santa Barbara,23.56,5.0,Female
+12,13,"Eckel, Caroline",50 Freestyle SCY,"University of California, Davis",23.57,2.0,Female
+13,13,"Marusakova, Emma",50 Freestyle SCY,Brigham Young University,23.57,2.0,Female
+14,15,"Reuter, Tina",50 Freestyle SCY,UC San Diego,23.64,2.0,Female
+15,16,"Djunic, Helena",50 Freestyle SCY,University of Hawaii,23.65,0.5,Female
+16,16,"Ray, Ashley",50 Freestyle SCY,UC Santa Barbara,23.65,0.5,Female
+17,18,"Bartell, Julia",50 Freestyle SCY,Brigham Young University,23.67,0.0,Female
+18,18,"Joseph, Hannah",50 Freestyle SCY,UC Santa Barbara,23.67,0.0,Female
+19,20,"Lee, Mackenzie",50 Freestyle SCY,UC San Diego,23.75,0.0,Female
+20,21,"Disimone, Holly",50 Freestyle SCY,California State University Bakersfield,23.80,0.0,Female
+21,22,"Fasan, Daniela",50 Freestyle SCY,"University of California, Davis",23.81,0.0,Female
+22,23,"Douglas, Christine",50 Freestyle SCY,"University of California, Davis",23.83,0.0,Female
+23,24,"McLain, Katie",50 Freestyle SCY,"University of California, Davis",23.88,0.0,Female
+24,1,"Transom, Laticia-Leigh",100 Freestyle SCY,University of Hawaii,48.28,20.0,Female
+25,2,"Nelson, Holly",100 Freestyle SCY,University of Hawaii,49.85,17.0,Female
+26,3,"Popham, Mikayla",100 Freestyle SCY,California State University Bakersfield,50.12,16.0,Female
+27,4,"Williams, Halli",100 Freestyle SCY,Brigham Young University,50.54,15.0,Female
+28,5,"Renner, Miranda",100 Freestyle SCY,UC San Diego,50.58,14.0,Female
+29,6,"Treydte, Casslyn",100 Freestyle SCY,University of Hawaii,50.90,13.0,Female
+30,7,"Statler, Nina",100 Freestyle SCY,UC Santa Barbara,50.92,12.0,Female
+31,8,"Lee, Anna",100 Freestyle SCY,"University of California, Davis",51.12,11.0,Female
+32,9,"Wyzga, Aneta",100 Freestyle SCY,UC San Diego,51.27,9.0,Female
+33,10,"Phillips, Jordan",100 Freestyle SCY,UC San Diego,51.29,7.0,Female
+34,11,"Horton, Nicole",100 Freestyle SCY,California State University Bakersfield,51.30,6.0,Female
+35,12,"Disimone, Holly",100 Freestyle SCY,California State University Bakersfield,51.42,5.0,Female
+36,13,"Nibarger, Reagan",100 Freestyle SCY,UC Santa Barbara,51.49,4.0,Female
+37,14,"Sondgeroth, Paige",100 Freestyle SCY,University of the Pacific,51.50,3.0,Female
+38,15,"Davison, Lola",100 Freestyle SCY,University of Hawaii,51.63,2.0,Female
+39,16,"McLain, Katie",100 Freestyle SCY,"University of California, Davis",51.71,1.0,Female
+40,17,"Bartell, Julia",100 Freestyle SCY,Brigham Young University,51.72,0.0,Female
+41,18,"Hobbs, Kira",100 Freestyle SCY,University of Hawaii,51.77,0.0,Female
+42,19,"Fasan, Daniela",100 Freestyle SCY,"University of California, Davis",51.87,0.0,Female
+43,20,"Djunic, Helena",100 Freestyle SCY,University of Hawaii,51.93,0.0,Female
+44,21,"Reuter, Tina",100 Freestyle SCY,UC San Diego,51.95,0.0,Female
+45,22,"Joseph, Hannah",100 Freestyle SCY,UC Santa Barbara,51.96,0.0,Female
+46,23,"Gambetta, Paige",100 Freestyle SCY,UC Santa Barbara,51.97,0.0,Female
+47,24,"Jackson, Sophie",100 Freestyle SCY,Cal Poly,51.98,0.0,Female
+48,1,"Transom, Laticia-Leigh",200 Freestyle SCY,University of Hawaii,1:44.89,20.0,Female
+49,2,"Popham, Mikayla",200 Freestyle SCY,California State University Bakersfield,1:47.71,17.0,Female
+50,3,"Treydte, Casslyn",200 Freestyle SCY,University of Hawaii,1:48.75,16.0,Female
+51,4,"Geldmacher, Regan",200 Freestyle SCY,Brigham Young University,1:49.14,15.0,Female
+52,5,"Nelson, Holly",200 Freestyle SCY,University of Hawaii,1:50.21,14.0,Female
+53,6,"Wyzga, Aneta",200 Freestyle SCY,UC San Diego,1:50.32,13.0,Female
+54,7,"Arzave, Julissa",200 Freestyle SCY,UC San Diego,1:50.43,12.0,Female
+55,8,"Friedrich, Anna",200 Freestyle SCY,University of Hawaii,1:50.71,11.0,Female
+56,9,"Conde Merlos, Marie",200 Freestyle SCY,University of Incarnate Word,1:51.03,9.0,Female
+57,10,"Statler, Nina",200 Freestyle SCY,UC Santa Barbara,1:51.24,7.0,Female
+58,11,"Davison, Lola",200 Freestyle SCY,University of Hawaii,1:51.28,6.0,Female
+59,12,"Gambetta, Paige",200 Freestyle SCY,UC Santa Barbara,1:51.47,5.0,Female
+60,13,"Lee, Anna",200 Freestyle SCY,"University of California, Davis",1:51.80,4.0,Female
+61,14,"Bergstrom, Megan",200 Freestyle SCY,Brigham Young University,1:51.85,3.0,Female
+62,15,"Gingras, Audrey",200 Freestyle SCY,University of San Diego,1:51.90,2.0,Female
+63,16,"Horton, Nicole",200 Freestyle SCY,California State University Bakersfield,1:51.94,1.0,Female
+64,17,"Pavicevic, Katja",200 Freestyle SCY,UC San Diego,1:52.40,0.0,Female
+65,18,"Martinez-Spencer, Isabella",200 Freestyle SCY,UC Santa Barbara,1:52.65,0.0,Female
+66,19,"Phillips, Jadyn",200 Freestyle SCY,University of the Pacific,1:52.77,0.0,Female
+67,20,"McLain, Katie",200 Freestyle SCY,"University of California, Davis",1:52.84,0.0,Female
+68,21,"Sproul, Brynn",200 Freestyle SCY,Brigham Young University,1:52.90,0.0,Female
+69,22,"Kawamura, Minh-Nha",200 Freestyle SCY,UC San Diego,1:52.91,0.0,Female
+70,23,"Nibarger, Reagan",200 Freestyle SCY,UC Santa Barbara,1:53.22,0.0,Female
+71,24,"Williams, Halli",200 Freestyle SCY,Brigham Young University,1:53.23,0.0,Female
+72,1,"Popham, Mikayla",500 Freestyle SCY,California State University Bakersfield,4:49.17,20.0,Female
+73,2,"Treydte, Casslyn",500 Freestyle SCY,University of Hawaii,4:49.42,17.0,Female
+74,3,"Arzave, Julissa",500 Freestyle SCY,UC San Diego,4:52.65,16.0,Female
+75,4,"Bergstrom, Megan",500 Freestyle SCY,Brigham Young University,4:52.95,15.0,Female
+76,5,"Bell, Sophia",500 Freestyle SCY,UC San Diego,4:53.18,14.0,Female
+77,6,"Geldmacher, Regan",500 Freestyle SCY,Brigham Young University,4:53.96,13.0,Female
+78,7,"Franco, Jessica",500 Freestyle SCY,California State University Bakersfield,4:56.55,12.0,Female
+79,8,"Keith-Brown, Emma",500 Freestyle SCY,UC San Diego,4:56.59,11.0,Female
+80,9,"Martinez-Spencer, Isabella",500 Freestyle SCY,UC Santa Barbara,4:57.07,9.0,Female
+81,10,"Lawrence, Maelynn",500 Freestyle SCY,UC Santa Barbara,4:57.81,7.0,Female
+82,11,"Bartlett, Kristin",500 Freestyle SCY,UC Santa Barbara,4:58.73,6.0,Female
+83,12,"Lopez, Megan",500 Freestyle SCY,University of Incarnate Word,4:58.74,5.0,Female
+84,13,"Molina, Tehani",500 Freestyle SCY,University of Incarnate Word,4:59.27,4.0,Female
+85,14,"Conde Merlos, Marie",500 Freestyle SCY,University of Incarnate Word,4:59.35,3.0,Female
+86,15,"Vermeulen, Anna",500 Freestyle SCY,University of San Diego,4:59.46,2.0,Female
+87,16,"Collins, Cameron",500 Freestyle SCY,UC Santa Barbara,4:59.86,1.0,Female
+88,17,"Chow, Kailee",500 Freestyle SCY,University of Hawaii,5:00.30,0.0,Female
+89,18,"Wyzga, Aneta",500 Freestyle SCY,UC San Diego,5:00.49,0.0,Female
+90,19,"Ney, Kylie",500 Freestyle SCY,California State University Bakersfield,5:00.53,0.0,Female
+91,20,"Davison, Lola",500 Freestyle SCY,University of Hawaii,5:00.67,0.0,Female
+92,21,"Anderson, Kaia",500 Freestyle SCY,Cal Poly,5:01.02,0.0,Female
+93,22,"Macphail, Elizabeth",500 Freestyle SCY,University of the Pacific,5:01.19,0.0,Female
+94,23,"Richards, Addison",500 Freestyle SCY,Brigham Young University,5:01.26,0.0,Female
+95,24,"Ditterich, Delara",500 Freestyle SCY,University of Hawaii,5:01.34,0.0,Female
+96,1,"Arzave, Julissa",1650 Freestyle SCY,UC San Diego,16:42.91,20.0,Female
+97,2,"Bell, Sophia",1650 Freestyle SCY,UC San Diego,16:54.63,17.0,Female
+98,3,"Martinez-Spencer, Isabella",1650 Freestyle SCY,UC Santa Barbara,16:57.30,16.0,Female
+99,4,"Geldmacher, Regan",1650 Freestyle SCY,Brigham Young University,17:02.00,15.0,Female
+100,5,"Bergstrom, Megan",1650 Freestyle SCY,Brigham Young University,17:02.55,14.0,Female
+101,6,"Ney, Kylie",1650 Freestyle SCY,California State University Bakersfield,17:05.64,13.0,Female
+102,7,"Lopez, Megan",1650 Freestyle SCY,University of Incarnate Word,17:06.28,12.0,Female
+103,8,"Ditterich, Delara",1650 Freestyle SCY,University of Hawaii,17:08.53,11.0,Female
+104,9,"Keith-Brown, Emma",1650 Freestyle SCY,UC San Diego,17:09.59,9.0,Female
+105,10,"Marsh, Hannah",1650 Freestyle SCY,California State University Bakersfield,17:16.45,7.0,Female
+106,11,"Richards, Addison",1650 Freestyle SCY,Brigham Young University,17:19.02,6.0,Female
+107,12,"Collins, Cameron",1650 Freestyle SCY,UC Santa Barbara,17:21.56,5.0,Female
+108,13,"Vermeulen, Anna",1650 Freestyle SCY,University of San Diego,17:21.93,4.0,Female
+109,14,"Diaz, Brenda",1650 Freestyle SCY,University of Incarnate Word,17:22.44,3.0,Female
+110,15,"Molina, Tehani",1650 Freestyle SCY,University of Incarnate Word,17:24.30,2.0,Female
+111,16,"Anderson, Kaia",1650 Freestyle SCY,Cal Poly,17:27.84,1.0,Female
+112,17,"Siering, Annalena",1650 Freestyle SCY,UC San Diego,17:32.65,0.0,Female
+113,18,"Davison, Lola",1650 Freestyle SCY,University of Hawaii,17:32.96,0.0,Female
+114,19,"Conrad, Kylee",1650 Freestyle SCY,Brigham Young University,17:37.19,0.0,Female
+115,20,"Cross, Courtney",1650 Freestyle SCY,Cal Poly,17:41.93,0.0,Female
+116,21,"Porter, Alexa",1650 Freestyle SCY,Cal Poly,17:43.28,0.0,Female
+117,22,"Griffiths, Mia",1650 Freestyle SCY,University of San Diego,17:52.01,0.0,Female
+118,23,"Malloy, Maggie",1650 Freestyle SCY,"University of California, Davis",17:57.23,0.0,Female
+119,24,"Isaly, Abigail",1650 Freestyle SCY,Cal Poly,18:11.18,0.0,Female
+120,1,"Transom, Laticia-Leigh",100 Backstroke SCY,University of Hawaii,52.74,20.0,Female
+121,2,"Sproul, Brynn",100 Backstroke SCY,Brigham Young University,53.53,17.0,Female
+122,3,"Derr, Hazel",100 Backstroke SCY,UC Santa Barbara,54.21,16.0,Female
+123,4,"Monroe, Teagan",100 Backstroke SCY,UC San Diego,54.41,15.0,Female
+124,5,"Phillips, Jordan",100 Backstroke SCY,UC San Diego,54.49,14.0,Female
+125,6,"Dobos, Dorottya",100 Backstroke SCY,University of Hawaii,54.53,13.0,Female
+126,7,"Marusakova, Emma",100 Backstroke SCY,Brigham Young University,54.86,12.0,Female
+127,8,"Friedrich, Anna",100 Backstroke SCY,University of Hawaii,54.95,11.0,Female
+128,9,"Ruiz, Kailee",100 Backstroke SCY,"University of California, Davis",55.04,9.0,Female
+129,10,"Statler, Nina",100 Backstroke SCY,UC Santa Barbara,55.17,7.0,Female
+130,11,"Flath, Gillian",100 Backstroke SCY,UC Santa Barbara,55.43,6.0,Female
+131,12,"Barthel, Alanakealoha",100 Backstroke SCY,UC San Diego,55.51,5.0,Female
+132,13,"Bartlett, Kristin",100 Backstroke SCY,UC Santa Barbara,55.59,4.0,Female
+133,14,"Eckel, Caroline",100 Backstroke SCY,"University of California, Davis",55.62,3.0,Female
+134,15,"Fie'Eiki, Charlotte",100 Backstroke SCY,Brigham Young University,55.68,1.0,Female
+135,15,"Yue, Valerie",100 Backstroke SCY,UC San Diego,55.68,1.0,Female
+136,17,"Popham, Mikayla",100 Backstroke SCY,California State University Bakersfield,55.85,0.0,Female
+137,18,"Dequine, Sanne",100 Backstroke SCY,UC San Diego,56.01,0.0,Female
+138,19,"Slade, Liza",100 Backstroke SCY,Brigham Young University,56.15,0.0,Female
+139,20,"Djunic, Helena",100 Backstroke SCY,University of Hawaii,56.41,0.0,Female
+140,21,"Hermeston, Emma",100 Backstroke SCY,"University of California, Davis",56.48,0.0,Female
+141,22,"Muaddi, Abigail",100 Backstroke SCY,University of San Diego,56.67,0.0,Female
+142,23,"Chan, Diana",100 Backstroke SCY,University of the Pacific,57.18,0.0,Female
+143,24,"Vergara, Cristina",100 Backstroke SCY,University of Incarnate Word,57.20,0.0,Female
+144,1,"Sproul, Brynn",200 Backstroke SCY,Brigham Young University,1:56.59,20.0,Female
+145,2,"Derr, Hazel",200 Backstroke SCY,UC Santa Barbara,1:56.72,17.0,Female
+146,3,"Friedrich, Anna",200 Backstroke SCY,University of Hawaii,1:57.16,16.0,Female
+147,4,"Dobos, Dorottya",200 Backstroke SCY,University of Hawaii,1:58.54,15.0,Female
+148,5,"Popham, Mikayla",200 Backstroke SCY,California State University Bakersfield,1:59.06,14.0,Female
+149,6,"Marusakova, Emma",200 Backstroke SCY,Brigham Young University,1:59.10,13.0,Female
+150,7,"Bartlett, Kristin",200 Backstroke SCY,UC Santa Barbara,1:59.39,12.0,Female
+151,8,"Slade, Liza",200 Backstroke SCY,Brigham Young University,1:59.40,11.0,Female
+152,9,"Hermeston, Emma",200 Backstroke SCY,"University of California, Davis",1:59.76,9.0,Female
+153,10,"Yue, Valerie",200 Backstroke SCY,UC San Diego,2:00.33,7.0,Female
+154,11,"Gambetta, Paige",200 Backstroke SCY,UC Santa Barbara,2:01.22,6.0,Female
+155,12,"Barthel, Alanakealoha",200 Backstroke SCY,UC San Diego,2:01.26,5.0,Female
+156,13,"Masino, Colette",200 Backstroke SCY,Brigham Young University,2:01.67,4.0,Female
+157,14,"Monroe, Teagan",200 Backstroke SCY,UC San Diego,2:02.17,3.0,Female
+158,15,"Reuter, Tina",200 Backstroke SCY,UC San Diego,2:02.28,2.0,Female
+159,16,"Vergara, Cristina",200 Backstroke SCY,University of Incarnate Word,2:02.44,1.0,Female
+160,17,"Dequine, Sanne",200 Backstroke SCY,UC San Diego,2:03.52,0.0,Female
+161,18,"Gonzales, Jordyn",200 Backstroke SCY,University of the Pacific,2:03.99,0.0,Female
+162,19,"Franco, Jessica",200 Backstroke SCY,California State University Bakersfield,2:04.02,0.0,Female
+163,20,"Macphail, Elizabeth",200 Backstroke SCY,University of the Pacific,2:04.34,0.0,Female
+164,21,"Diaz, Brenda",200 Backstroke SCY,University of Incarnate Word,2:04.45,0.0,Female
+165,22,"Flath, Gillian",200 Backstroke SCY,UC Santa Barbara,2:04.73,0.0,Female
+166,23,"McDermott, Kelly",200 Backstroke SCY,Cal Poly,2:04.81,0.0,Female
+167,24,"Kawamura, Minh-Nha",200 Backstroke SCY,UC San Diego,2:05.03,0.0,Female
+168,1,"Pavicevic, Katja",100 Breaststroke SCY,UC San Diego,1:00.99,20.0,Female
+169,2,"Miller, Mackenzie",100 Breaststroke SCY,Brigham Young University,1:01.06,17.0,Female
+170,3,"van der Westhuizen, Chelaine",100 Breaststroke SCY,California State University Bakersfield,1:01.63,16.0,Female
+171,4,"Ivanov, Kathryn",100 Breaststroke SCY,University of Hawaii,1:01.90,7.5,Female
+172,4,"Nguyen, Mandolin",100 Breaststroke SCY,University of Hawaii,1:01.90,7.5,Female
+173,6,"BRAUN, Chloe",100 Breaststroke SCY,UC San Diego,1:02.18,13.0,Female
+174,7,"Furqueron, Abi",100 Breaststroke SCY,Brigham Young University,1:02.36,12.0,Female
+175,8,"Ray, Ashley",100 Breaststroke SCY,UC Santa Barbara,1:02.79,11.0,Female
+176,9,"Fasan, Daniela",100 Breaststroke SCY,"University of California, Davis",1:02.91,9.0,Female
+177,10,"McBratney-Graves, Katie",100 Breaststroke SCY,Brigham Young University,1:03.01,7.0,Female
+178,11,"Rhodes, Samantha",100 Breaststroke SCY,"University of California, Davis",1:03.22,6.0,Female
+179,12,"Albright, Danielle",100 Breaststroke SCY,California State University Bakersfield,1:03.48,5.0,Female
+180,13,"Nugent, Katherine",100 Breaststroke SCY,UC Santa Barbara,1:03.66,4.0,Female
+181,14,"Mitchell, Madison",100 Breaststroke SCY,UC San Diego,1:03.78,3.0,Female
+182,15,"Empremsilapa, Tyryn",100 Breaststroke SCY,UC Santa Barbara,1:03.89,2.0,Female
+183,16,"Sondgeroth, Paige",100 Breaststroke SCY,University of the Pacific,1:04.08,1.0,Female
+184,17,"Cho, Amelia",100 Breaststroke SCY,"University of California, Davis",1:04.37,0.0,Female
+185,18,"Bailey, Hannah",100 Breaststroke SCY,University of Hawaii,1:04.47,0.0,Female
+186,19,"Renner, Miranda",100 Breaststroke SCY,UC San Diego,1:04.57,0.0,Female
+187,20,"Hoefer, Haley",100 Breaststroke SCY,"University of California, Davis",1:04.60,0.0,Female
+188,21,"Hobbs, Kira",100 Breaststroke SCY,University of Hawaii,1:04.61,0.0,Female
+189,22,"Mudry, Vivian",100 Breaststroke SCY,UC Santa Barbara,1:05.26,0.0,Female
+190,23,"Costa, Melia",100 Breaststroke SCY,Cal Poly,1:05.34,0.0,Female
+191,24,"Huang, Lucy",100 Breaststroke SCY,UC Santa Barbara,1:05.52,0.0,Female
+192,1,"Pavicevic, Katja",200 Breaststroke SCY,UC San Diego,2:11.15,20.0,Female
+193,2,"Miller, Mackenzie",200 Breaststroke SCY,Brigham Young University,2:11.94,17.0,Female
+194,3,"Nguyen, Mandolin",200 Breaststroke SCY,University of Hawaii,2:14.22,16.0,Female
+195,4,"van der Westhuizen, Chelaine",200 Breaststroke SCY,California State University Bakersfield,2:14.84,15.0,Female
+196,5,"BRAUN, Chloe",200 Breaststroke SCY,UC San Diego,2:16.05,14.0,Female
+197,6,"Ivanov, Kathryn",200 Breaststroke SCY,University of Hawaii,2:16.26,13.0,Female
+198,7,"McBratney-Graves, Katie",200 Breaststroke SCY,Brigham Young University,2:17.00,12.0,Female
+199,8,"Rhodes, Samantha",200 Breaststroke SCY,"University of California, Davis",2:17.20,11.0,Female
+200,9,"Albright, Danielle",200 Breaststroke SCY,California State University Bakersfield,2:18.15,9.0,Female
+201,10,"Hoefer, Haley",200 Breaststroke SCY,"University of California, Davis",2:18.28,7.0,Female
+202,11,"Nugent, Katherine",200 Breaststroke SCY,UC Santa Barbara,2:18.35,6.0,Female
+203,12,"Ray, Ashley",200 Breaststroke SCY,UC Santa Barbara,2:18.63,5.0,Female
+204,13,"Hobbs, Kira",200 Breaststroke SCY,University of Hawaii,2:18.68,4.0,Female
+205,14,"Furqueron, Abi",200 Breaststroke SCY,Brigham Young University,2:19.44,3.0,Female
+206,15,"Bennani, Sabrina",200 Breaststroke SCY,UC San Diego,2:20.31,2.0,Female
+207,16,"Pusceddu, Sofia",200 Breaststroke SCY,Brigham Young University,2:20.86,1.0,Female
+208,17,"Bailey, Hannah",200 Breaststroke SCY,University of Hawaii,2:21.11,0.0,Female
+209,18,"Huang, Lucy",200 Breaststroke SCY,UC Santa Barbara,2:21.39,0.0,Female
+210,19,"Mudry, Vivian",200 Breaststroke SCY,UC Santa Barbara,2:21.61,0.0,Female
+211,20,"Sondgeroth, Paige",200 Breaststroke SCY,University of the Pacific,2:21.85,0.0,Female
+212,21,"Browne, Phoebe",200 Breaststroke SCY,University of Incarnate Word,2:22.55,0.0,Female
+213,22,"Murphy, Summer",200 Breaststroke SCY,Brigham Young University,2:22.57,0.0,Female
+214,23,"Tekawy, Michelle",200 Breaststroke SCY,UC Santa Barbara,2:22.91,0.0,Female
+215,24,"Cho, Amelia",200 Breaststroke SCY,"University of California, Davis",2:23.71,0.0,Female
+216,1,"Transom, Laticia-Leigh",100 Butterfly SCY,University of Hawaii,53.22,20.0,Female
+217,2,"Friedrich, Anna",100 Butterfly SCY,University of Hawaii,54.25,17.0,Female
+218,3,"Lee, Anna",100 Butterfly SCY,"University of California, Davis",54.41,16.0,Female
+219,4,"Marusakova, Emma",100 Butterfly SCY,Brigham Young University,54.69,15.0,Female
+220,5,"Nelson, Holly",100 Butterfly SCY,University of Hawaii,54.76,14.0,Female
+221,6,"Phillips, Jordan",100 Butterfly SCY,UC San Diego,54.82,13.0,Female
+222,7,"Renner, Miranda",100 Butterfly SCY,UC San Diego,54.84,12.0,Female
+223,8,"Li, Sandy",100 Butterfly SCY,UC San Diego,55.07,11.0,Female
+224,9,"Jerebic, Lorena",100 Butterfly SCY,California State University Bakersfield,55.13,9.0,Female
+225,10,"Depaco, Alexis",100 Butterfly SCY,UC San Diego,55.22,7.0,Female
+226,11,"Ma, Ashley",100 Butterfly SCY,"University of California, Davis",55.23,6.0,Female
+227,12,"Dequine, Sanne",100 Butterfly SCY,UC San Diego,55.28,5.0,Female
+228,13,"Yue, Valerie",100 Butterfly SCY,UC San Diego,55.54,4.0,Female
+229,14,"Eason, Samantha",100 Butterfly SCY,University of San Diego,55.60,3.0,Female
+230,15,"Monroe, Teagan",100 Butterfly SCY,UC San Diego,55.63,1.0,Female
+231,15,"Slade, Liza",100 Butterfly SCY,Brigham Young University,55.63,1.0,Female
+232,17,"Chow, Kailee",100 Butterfly SCY,University of Hawaii,55.64,0.0,Female
+233,18,"Empremsilapa, Tyryn",100 Butterfly SCY,UC Santa Barbara,55.73,0.0,Female
+234,19,"Fie'Eiki, Charlotte",100 Butterfly SCY,Brigham Young University,55.95,0.0,Female
+235,20,"Disimone, Holly",100 Butterfly SCY,California State University Bakersfield,55.97,0.0,Female
+236,21,"Oyler, Rachel",100 Butterfly SCY,Brigham Young University,56.17,0.0,Female
+237,22,"Lawrence, Maelynn",100 Butterfly SCY,UC Santa Barbara,56.19,0.0,Female
+238,23,"Shaeffer, Mia",100 Butterfly SCY,University of San Diego,56.28,0.0,Female
+239,24,"Jackson, Sophie",100 Butterfly SCY,Cal Poly,56.40,0.0,Female
+240,1,"Lawrence, Maelynn",200 Butterfly SCY,UC Santa Barbara,1:59.96,20.0,Female
+241,2,"Depaco, Alexis",200 Butterfly SCY,UC San Diego,2:00.84,17.0,Female
+242,3,"Jerebic, Lorena",200 Butterfly SCY,California State University Bakersfield,2:02.81,16.0,Female
+243,4,"Chow, Kailee",200 Butterfly SCY,University of Hawaii,2:03.49,15.0,Female
+244,5,"Ryan, Jordyn",200 Butterfly SCY,University of Hawaii,2:04.17,14.0,Female
+245,6,"Meraz, Isabelle",200 Butterfly SCY,University of Hawaii,2:04.61,13.0,Female
+246,7,"Icheva, Gabriela",200 Butterfly SCY,UC San Diego,2:04.65,12.0,Female
+247,8,"Lyon, Taylor",200 Butterfly SCY,Cal Poly,2:04.91,11.0,Female
+248,9,"Collins, Cameron",200 Butterfly SCY,UC Santa Barbara,2:05.13,9.0,Female
+249,10,"Li, Sandy",200 Butterfly SCY,UC San Diego,2:05.19,7.0,Female
+250,11,"Eason, Samantha",200 Butterfly SCY,University of San Diego,2:05.64,6.0,Female
+251,12,"Diaz, Brenda",200 Butterfly SCY,University of Incarnate Word,2:05.98,5.0,Female
+252,13,"Treydte, Casslyn",200 Butterfly SCY,University of Hawaii,2:06.20,4.0,Female
+253,14,"Peters, Kaitlyn",200 Butterfly SCY,University of Incarnate Word,2:06.38,3.0,Female
+254,15,"Sebastian, Sophia",200 Butterfly SCY,"University of California, Davis",2:06.55,2.0,Female
+255,16,"Platalla, Josi",200 Butterfly SCY,UC San Diego,2:06.56,1.0,Female
+256,17,"Dequine, Sanne",200 Butterfly SCY,UC San Diego,2:06.61,0.0,Female
+257,18,"Aguilar, Danica",200 Butterfly SCY,California State University Bakersfield,2:06.79,0.0,Female
+258,18,"Masino, Colette",200 Butterfly SCY,Brigham Young University,2:06.79,0.0,Female
+259,20,"Bennani, Sabrina",200 Butterfly SCY,UC San Diego,2:06.99,0.0,Female
+260,21,"Melendez, Noemi",200 Butterfly SCY,University of the Pacific,2:07.02,0.0,Female
+261,22,"Cho, Katie",200 Butterfly SCY,UC San Diego,2:07.12,0.0,Female
+262,23,"Shaeffer, Mia",200 Butterfly SCY,University of San Diego,2:07.36,0.0,Female
+263,24,"Ditterich, Delara",200 Butterfly SCY,University of Hawaii,2:07.48,0.0,Female
+264,1,"Pavicevic, Katja",200 Individual Medley SCY,UC San Diego,2:01.56,20.0,Female
+265,2,"Reuter, Tina",200 Individual Medley SCY,UC San Diego,2:01.78,17.0,Female
+266,3,"Friedrich, Anna",200 Individual Medley SCY,University of Hawaii,2:02.56,16.0,Female
+267,4,"McBratney-Graves, Katie",200 Individual Medley SCY,Brigham Young University,2:02.90,15.0,Female
+268,5,"Empremsilapa, Tyryn",200 Individual Medley SCY,UC Santa Barbara,2:03.30,14.0,Female
+269,6,"Derr, Hazel",200 Individual Medley SCY,UC Santa Barbara,2:03.50,13.0,Female
+270,7,"Miller, Mackenzie",200 Individual Medley SCY,Brigham Young University,2:03.57,12.0,Female
+271,8,"Nguyen, Mandolin",200 Individual Medley SCY,University of Hawaii,2:03.94,11.0,Female
+272,9,"Depaco, Alexis",200 Individual Medley SCY,UC San Diego,2:04.02,9.0,Female
+273,10,"Greenberg, Olivia",200 Individual Medley SCY,"University of California, Davis",2:04.22,7.0,Female
+274,11,"Sondgeroth, Paige",200 Individual Medley SCY,University of the Pacific,2:04.87,6.0,Female
+275,12,"Huang, Lucy",200 Individual Medley SCY,UC Santa Barbara,2:04.91,5.0,Female
+276,13,"BRAUN, Chloe",200 Individual Medley SCY,UC San Diego,2:05.14,4.0,Female
+277,14,"Kwan, Julie",200 Individual Medley SCY,"University of California, Davis",2:05.37,3.0,Female
+278,15,"Furqueron, Abi",200 Individual Medley SCY,Brigham Young University,2:05.44,2.0,Female
+279,16,"Bennani, Sabrina",200 Individual Medley SCY,UC San Diego,2:05.63,1.0,Female
+280,17,"Rhodes, Samantha",200 Individual Medley SCY,"University of California, Davis",2:05.71,0.0,Female
+281,18,"Conde Merlos, Marie",200 Individual Medley SCY,University of Incarnate Word,2:05.96,0.0,Female
+282,19,"Ruiz, Kailee",200 Individual Medley SCY,"University of California, Davis",2:06.19,0.0,Female
+283,20,"Icheva, Gabriela",200 Individual Medley SCY,UC San Diego,2:06.22,0.0,Female
+284,21,"Murphy, Summer",200 Individual Medley SCY,Brigham Young University,2:06.53,0.0,Female
+285,22,"Ray, Ashley",200 Individual Medley SCY,UC Santa Barbara,2:06.80,0.0,Female
+286,23,"Jerebic, Lorena",200 Individual Medley SCY,California State University Bakersfield,2:07.03,0.0,Female
+287,24,"Rankin, Samantha",200 Individual Medley SCY,Cal Poly,2:07.19,0.0,Female
+288,1,"Reuter, Tina",400 Individual Medley SCY,UC San Diego,4:23.04,20.0,Female
+289,2,"Keith-Brown, Emma",400 Individual Medley SCY,UC San Diego,4:24.52,17.0,Female
+290,3,"Conde Merlos, Marie",400 Individual Medley SCY,University of Incarnate Word,4:24.74,16.0,Female
+291,4,"Marsh, Hannah",400 Individual Medley SCY,California State University Bakersfield,4:25.41,15.0,Female
+292,5,"Lawrence, Maelynn",400 Individual Medley SCY,UC Santa Barbara,4:25.95,14.0,Female
+293,6,"Icheva, Gabriela",400 Individual Medley SCY,UC San Diego,4:26.00,13.0,Female
+294,7,"Richards, Addison",400 Individual Medley SCY,Brigham Young University,4:26.14,12.0,Female
+295,8,"Nguyen, Mandolin",400 Individual Medley SCY,University of Hawaii,4:26.78,11.0,Female
+296,9,"Bennani, Sabrina",400 Individual Medley SCY,UC San Diego,4:27.53,9.0,Female
+297,10,"Rhodes, Samantha",400 Individual Medley SCY,"University of California, Davis",4:27.59,7.0,Female
+298,11,"Diaz, Brenda",400 Individual Medley SCY,University of Incarnate Word,4:28.30,6.0,Female
+299,12,"Huang, Lucy",400 Individual Medley SCY,UC Santa Barbara,4:28.68,5.0,Female
+300,13,"Pusceddu, Sofia",400 Individual Medley SCY,Brigham Young University,4:29.75,4.0,Female
+301,14,"Anderson, Kaia",400 Individual Medley SCY,Cal Poly,4:29.78,3.0,Female
+302,15,"Greenberg, Olivia",400 Individual Medley SCY,"University of California, Davis",4:30.13,2.0,Female
+303,16,"Arzave, Julissa",400 Individual Medley SCY,UC San Diego,4:30.60,1.0,Female
+304,17,"Ditterich, Delara",400 Individual Medley SCY,University of Hawaii,4:31.53,0.0,Female
+305,17,"Ryan, Jordyn",400 Individual Medley SCY,University of Hawaii,4:31.53,0.0,Female
+306,19,"Hansen, Taylor",400 Individual Medley SCY,"University of California, Davis",4:31.81,0.0,Female
+307,20,"Macphail, Elizabeth",400 Individual Medley SCY,University of the Pacific,4:32.20,0.0,Female
+308,21,"Ney, Kylie",400 Individual Medley SCY,California State University Bakersfield,4:32.23,0.0,Female
+309,22,"Conrad, Kylee",400 Individual Medley SCY,Brigham Young University,4:32.64,0.0,Female
+310,23,"Platalla, Josi",400 Individual Medley SCY,UC San Diego,4:32.74,0.0,Female
+311,24,"McDermott, Kelly",400 Individual Medley SCY,Cal Poly,4:33.22,0.0,Female
+312,1,Jacqueline Samaniego,1 Meter,Cal Poly,298.80,20.0,Female
+313,2,Tessa Watkins,1 Meter,Brigham Young University,292.50,17.0,Female
+314,3,Alexia Jackson,1 Meter,Brigham Young University,264.50,16.0,Female
+315,4,Hailey Johnson,1 Meter,Brigham Young University,263.35,15.0,Female
+316,5,Isabelle Lombardi,1 Meter,University of Hawaii,259.90,14.0,Female
+317,6,Emma Lund,1 Meter,University of Hawaii,253.65,13.0,Female
+318,7,Isabella Plantz,1 Meter,University of Hawaii,247.90,12.0,Female
+319,8,Summer Taylor,1 Meter,University of Incarnate Word,246.38,11.0,Female
+320,1,Alexia Jackson,3 Meter,Brigham Young University,336.05,20.0,Female
+321,2,Tessa Watkins,3 Meter,Brigham Young University,315.00,17.0,Female
+322,3,Emma Lund,3 Meter,University of Hawaii,290.60,16.0,Female
+323,4,Hailey Johnson,3 Meter,Brigham Young University,282.45,15.0,Female
+324,5,Chloe Brown,3 Meter,California State University Bakersfield,268.50,14.0,Female
+325,6,Kellyann Lim,3 Meter,Cal Poly,255.55,13.0,Female
+326,7,Summer Taylor,3 Meter,University of Incarnate Word,250.13,12.0,Female
+327,8,Annika Donez,3 Meter,University of Hawaii,248.35,11.0,Female
+328,1,Elma Lund,Platform,University of Hawaii,278.00,20.0,Female
+329,2,Alexia Jackson,Platform,Brigham Young University,252.80,17.0,Female
+330,3,Sophia DeBergh,Platform,Brigham Young University,203.80,16.0,Female
+331,4,Annika Donez,Platform,University of Hawaii,194.90,15.0,Female
+332,5,Isabelle Lombardi,Platform,University of Hawaii,178.20,14.0,Female
+333,6,Tessa Watkins,Platform,Brigham Young University,174.45,13.0,Female
+334,7,Isabella Plantz,Platform,University of Hawaii,170.20,12.0,Female
+335,1,University of Hawaii,200 Free Relay,University of Hawaii,1:29.63,40.0,Female
+336,2,UC San Diego,200 Free Relay,UC San Diego,1:30.00,34.0,Female
+337,3,Brigham Young University,200 Free Relay,Brigham Young University,1:32.85,32.0,Female
+338,4,"University of California, Davis",200 Free Relay,"University of California, Davis",1:33.59,30.0,Female
+339,5,University of San Diego,200 Free Relay,University of San Diego,1:33.99,28.0,Female
+340,6,UC Santa Barbara,200 Free Relay,UC Santa Barbara,1:34.30,26.0,Female
+341,7,California State University Bakersfield,200 Free Relay,California State University Bakersfield,1:35.75,24.0,Female
+342,8,University of the Pacific,200 Free Relay,University of the Pacific,1:35.93,22.0,Female
+343,9,Cal Poly,200 Free Relay,Cal Poly,1:36.33,18.0,Female
+344,10,University of Incarnate Word,200 Free Relay,University of Incarnate Word,1:36.82,14.0,Female
+345,1,University of Hawaii,400 Free Relay,University of Hawaii,3:16.45,40.0,Female
+346,2,UC San Diego,400 Free Relay,UC San Diego,3:21.44,34.0,Female
+347,3,Brigham Young University,400 Free Relay,Brigham Young University,3:23.43,32.0,Female
+348,4,"University of California, Davis",400 Free Relay,"University of California, Davis",3:24.48,30.0,Female
+349,5,UC Santa Barbara,400 Free Relay,UC Santa Barbara,3:25.46,28.0,Female
+350,6,California State University Bakersfield,400 Free Relay,California State University Bakersfield,3:25.96,26.0,Female
+351,7,University of the Pacific,400 Free Relay,University of the Pacific,3:26.67,24.0,Female
+352,8,University of San Diego,400 Free Relay,University of San Diego,3:29.59,22.0,Female
+353,9,Cal Poly,400 Free Relay,Cal Poly,3:30.82,18.0,Female
+354,10,University of Incarnate Word,400 Free Relay,University of Incarnate Word,3:32.36,14.0,Female
+355,1,University of Hawaii,800 Free Relay,University of Hawaii,7:15.43,40.0,Female
+356,2,UC San Diego,800 Free Relay,UC San Diego,7:19.69,34.0,Female
+357,3,UC Santa Barbara,800 Free Relay,UC Santa Barbara,7:25.12,32.0,Female
+358,4,California State University Bakersfield,800 Free Relay,California State University Bakersfield,7:31.64,30.0,Female
+359,5,"University of California, Davis",800 Free Relay,"University of California, Davis",7:32.47,28.0,Female
+360,6,University of Incarnate Word,800 Free Relay,University of Incarnate Word,7:36.60,26.0,Female
+361,7,University of the Pacific,800 Free Relay,University of the Pacific,7:37.52,24.0,Female
+362,8,Brigham Young University,800 Free Relay,Brigham Young University,7:38.12,22.0,Female
+363,9,Cal Poly,800 Free Relay,Cal Poly,7:43.14,18.0,Female
+364,10,University of San Diego,800 Free Relay,University of San Diego,7:44.14,14.0,Female
+365,1,University of Hawaii,200 Medley Relay,University of Hawaii,1:38.56,40.0,Female
+366,2,UC San Diego,200 Medley Relay,UC San Diego,1:38.79,34.0,Female
+367,3,Brigham Young University,200 Medley Relay,Brigham Young University,1:41.32,32.0,Female
+368,4,UC Santa Barbara,200 Medley Relay,UC Santa Barbara,1:42.07,30.0,Female
+369,5,"University of California, Davis",200 Medley Relay,"University of California, Davis",1:42.09,28.0,Female
+370,6,California State University Bakersfield,200 Medley Relay,California State University Bakersfield,1:42.90,26.0,Female
+371,7,University of San Diego,200 Medley Relay,University of San Diego,1:44.42,24.0,Female
+372,8,Cal Poly,200 Medley Relay,Cal Poly,1:44.81,22.0,Female
+373,9,University of the Pacific,200 Medley Relay,University of the Pacific,1:45.36,18.0,Female
+374,10,University of Incarnate Word,200 Medley Relay,University of Incarnate Word,1:45.63,14.0,Female
+375,1,University of Hawaii,400 Medley Relay,University of Hawaii,3:36.43,40.0,Female
+376,2,UC San Diego,400 Medley Relay,UC San Diego,3:38.45,34.0,Female
+377,3,UC Santa Barbara,400 Medley Relay,UC Santa Barbara,3:42.29,32.0,Female
+378,4,Brigham Young University,400 Medley Relay,Brigham Young University,3:42.69,30.0,Female
+379,5,California State University Bakersfield,400 Medley Relay,California State University Bakersfield,3:44.95,28.0,Female
+380,6,"University of California, Davis",400 Medley Relay,"University of California, Davis",3:45.00,26.0,Female
+381,7,University of the Pacific,400 Medley Relay,University of the Pacific,3:51.99,24.0,Female
+382,8,University of San Diego,400 Medley Relay,University of San Diego,3:52.27,22.0,Female
+383,9,University of Incarnate Word,400 Medley Relay,University of Incarnate Word,3:53.27,18.0,Female
+384,10,Cal Poly,400 Medley Relay,Cal Poly,3:54.04,14.0,Female
