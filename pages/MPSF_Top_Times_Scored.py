@@ -126,7 +126,6 @@ with st.container():
                 getEvents(top_times, 'University of the Pacific')
             )
             query = BYU+UCSB+UIW+UCSD+UH+CSUB+CP+UOP
-            top_times = GetCustomLineup(top_times, query)
 
         if gen == 'Women':
             BYUW = st.multiselect(
@@ -170,10 +169,13 @@ with st.container():
                 getEvents(top_times, 'University of California, Davis')
             )
             query = BYUW+UCSBW+UIWW+UCSDW+UHW+CSUBW+CPW+UOPW+USDW+UCDW
-            top_times = GetCustomLineup(top_times, query)
     
         st.write('Click arrow below to expand all queried entries')
         st.write(query)
+    
+        if st.checkbox('Check box to use line ups above'):
+            top_times = GetCustomLineup(top_times, query)
+
 
     event = st.selectbox(
         'Event:',
