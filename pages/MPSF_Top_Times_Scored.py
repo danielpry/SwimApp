@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import altair as alt
+from datetime import datetime
 
 # defining helper funcs
 def getEvents(df, team):
@@ -11,6 +12,66 @@ def getEvents(df, team):
             x = [i, j]
             lst.append(x)
     return(lst)
+
+def toSeconds(a):
+    try:
+        x = datetime.strptime(a,'%M:%S.%f')
+        time = x.minute*60+x.second+x.microsecond/1000000
+    except:
+        time = float(a)
+    return(time)
+
+def seconds_to_mm_ss_ms(seconds):
+    minutes = int(seconds // 60)
+    remaining_seconds = int(seconds % 60)
+    milliseconds = str(seconds).split('.')[1]
+    return '{:02d}:{:02d}.{}'.format(minutes, remaining_seconds, milliseconds)
+
+def GetCustomLineup(df, query):
+        df['Time'] = df['Time'].apply(lambda x : toSeconds(x))
+        df.drop(columns=['Place', 'Points'], inplace=True)
+
+        final = pd.DataFrame()
+        for q in query:
+                df_concat = df[(df['Name'].isin([q[0]])) & (df['Event'].isin([q[1]]))]
+                final = pd.concat([final, df_concat], ignore_index=True)
+
+        final2 =pd.DataFrame()
+        for e in final['Event'].unique():
+                f2 = final[final['Event'] == e].sort_values(by='Time', ascending=True)
+                f2['Place'] = f2['Time'].rank(ascending=True)
+                final2 =pd.concat([final2, f2], ignore_index=True)
+
+        final2['Place'] = final2['Place'].astype(int)
+
+        # add points
+        final2.loc[final2['Place'] == 1, 'Points'] = 20
+        final2.loc[final2['Place'] == 2, 'Points'] = 17
+        final2.loc[final2['Place'] == 3, 'Points'] = 16
+        final2.loc[final2['Place'] == 4, 'Points'] = 15
+        final2.loc[final2['Place'] == 5, 'Points'] = 14
+        final2.loc[final2['Place'] == 6, 'Points'] = 13
+        final2.loc[final2['Place'] == 7, 'Points'] = 12
+        final2.loc[final2['Place'] == 8, 'Points'] = 11
+        final2.loc[final2['Place'] == 9, 'Points'] = 9
+        final2.loc[final2['Place'] == 10, 'Points'] = 7
+        final2.loc[final2['Place'] == 11, 'Points'] = 6
+        final2.loc[final2['Place'] == 12, 'Points'] = 5
+        final2.loc[final2['Place'] == 13, 'Points'] = 4
+        final2.loc[final2['Place'] == 14, 'Points'] = 3
+        final2.loc[final2['Place'] == 15, 'Points'] = 2
+        final2.loc[final2['Place'] == 16, 'Points'] = 1
+        final2.fillna(0, inplace=True)
+
+        # divide points if tied
+        a = final2.duplicated(subset=['Place', 'Event', 'Gender'])
+        err = a[a == True].index
+        for i in err:
+                final2.loc[i, ('Points')] = final2.loc[i]['Points']/2
+                final2.loc[i-1, ('Points')] = final2.loc[i-1]['Points']/2
+
+        final2['Time'] = final2['Time'].apply(lambda x : seconds_to_mm_ss_ms(x))
+        return(final2)
 
 
 # front end of website
@@ -31,11 +92,89 @@ with st.container():
     top_times = pd.read_csv('MPSF_' + gen.lower() + '.csv', index_col=False).drop(columns='Unnamed: 0')
 
     if custom:
-        for i in top_times['Team'].unique():
-            events = st.multiselect(
-                i,
-                getEvents(top_times, i)
+        if gen == 'Men':
+            BYU = st.multiselect(
+                'Brigham Young University',
+                getEvents(top_times, 'Brigham Young University')
             )
+            UCSB = st.multiselect(
+                'UC Santa Barbara',
+                getEvents(top_times, 'UC Santa Barbara')
+            )
+            UIW = st.multiselect(
+                'University of Incarnate Word',
+                getEvents(top_times, 'University of Incarnate Word')
+            )
+            UCSD = st.multiselect(
+                'UC San Diego',
+                getEvents(top_times, 'UC San Diego')
+            )
+            UH = st.multiselect(
+                'University of Hawaii',
+                getEvents(top_times, 'University of Hawaii')
+            )
+            CSUB = st.multiselect(
+                'California State University Bakersfield',
+                getEvents(top_times, 'California State University Bakersfield')
+            )
+            CP = st.multiselect(
+                'Cal Poly',
+                getEvents(top_times, 'Cal Poly')
+            )
+            UOP = st.multiselect(
+                'University of the Pacific',
+                getEvents(top_times, 'University of the Pacific')
+            )
+            query = BYU+UCSB+UIW+UCSD+UH+CSUB+CP+UOP
+
+        if gen == 'Women':
+            BYUW = st.multiselect(
+                'Brigham Young University',
+                getEvents(top_times, 'Brigham Young University')
+            )
+            UCSBW = st.multiselect(
+                'UC Santa Barbara',
+                getEvents(top_times, 'UC Santa Barbara')
+            )
+            UIWW = st.multiselect(
+                'University of Incarnate Word',
+                getEvents(top_times, 'University of Incarnate Word')
+            )
+            UCSDW = st.multiselect(
+                'UC San Diego',
+                getEvents(top_times, 'UC San Diego')
+            )
+            UHW = st.multiselect(
+                'University of Hawaii',
+                getEvents(top_times, 'University of Hawaii')
+            )
+            CSUBW = st.multiselect(
+                'California State University Bakersfield',
+                getEvents(top_times, 'California State University Bakersfield')
+            )
+            CPW = st.multiselect(
+                'Cal Poly',
+                getEvents(top_times, 'Cal Poly')
+            )
+            UOPW = st.multiselect(
+                'University of the Pacific',
+                getEvents(top_times, 'University of the Pacific')
+            )
+            USDW = st.multiselect(
+                'University of San Diego',
+                getEvents(top_times, 'University of San Diego')
+            )
+            UCDW = st.multiselect(
+                'University of California, Davis',
+                getEvents(top_times, 'University of California, Davis')
+            )
+            query = BYUW+UCSBW+UIWW+UCSDW+UHW+CSUBW+CPW+UOPW+USDW+UCDW
+    
+        st.write('Click arrow below to expand all queried entries')
+        st.write(query)
+    
+        if st.checkbox('Check box to use line ups above'):
+            top_times = GetCustomLineup(top_times, query)
 
 
     event = st.selectbox(
@@ -97,47 +236,47 @@ with col1:
 with col2:
     st.write('Scoring break down per team:')
     if event == '50 Fr':
-        st.table(pd.read_csv('50 Freestyle SCY_' + gen.lower() + '_points.csv', index_col=False).sort_values(['Points'], ascending=[False]))
+        st.table(top_times[top_times['Event'] == '50 Freestyle SCY'].groupby('Team')['Points'].sum().sort_values(ascending=False))
     if event == '100 Fr':
-         st.table(pd.read_csv('100 Freestyle SCY_' + gen.lower() + '_points.csv', index_col=False).sort_values(['Points'], ascending=[False]))
+        st.table(top_times[top_times['Event'] == '100 Freestyle SCY'].groupby('Team')['Points'].sum().sort_values(ascending=False))
     if event == '200 Fr':
-         st.table(pd.read_csv('200 Freestyle SCY_' + gen.lower() + '_points.csv', index_col=False).sort_values(['Points'], ascending=[False]))
+        st.table(top_times[top_times['Event'] == '200 Freestyle SCY'].groupby('Team')['Points'].sum().sort_values(ascending=False))
     if event == '500 Fr':
-         st.table(pd.read_csv('500 Freestyle SCY_' + gen.lower() + '_points.csv', index_col=False).sort_values(['Points'], ascending=[False]))
+        st.table(top_times[top_times['Event'] == '500 Freestyle SCY'].groupby('Team')['Points'].sum().sort_values(ascending=False))
     if event == '1650 Fr':
-         st.table(pd.read_csv('1650 Freestyle SCY_' + gen.lower() + '_points.csv', index_col=False).sort_values(['Points'], ascending=[False]))
+        st.table(top_times[top_times['Event'] == '1650 Freestyle SCY'].groupby('Team')['Points'].sum().sort_values(ascending=False))
     if event == '100 Bk':
-         st.table(pd.read_csv('100 Backstroke SCY_' + gen.lower() + '_points.csv', index_col=False).sort_values(['Points'], ascending=[False]))
+        st.table(top_times[top_times['Event'] == '100 Backstroke SCY'].groupby('Team')['Points'].sum().sort_values(ascending=False))
     if event == '200 Bk':
-        st.table(pd.read_csv('200 Backstroke SCY_' + gen.lower() + '_points.csv', index_col=False).sort_values(['Points'], ascending=[False]))
+        st.table(top_times[top_times['Event'] == '200 Backstroke SCY'].groupby('Team')['Points'].sum().sort_values(ascending=False))
     if event == '100 Br':
-        st.table(pd.read_csv('100 Breaststroke SCY_' + gen.lower() + '_points.csv', index_col=False).sort_values(['Points'], ascending=[False]))
+        st.table(top_times[top_times['Event'] == '100 Breaststroke SCY'].groupby('Team')['Points'].sum().sort_values(ascending=False))
     if event == '200 Br':
-        st.table(pd.read_csv('200 Breaststroke SCY_' + gen.lower() + '_points.csv', index_col=False).sort_values(['Points'], ascending=[False]))
+        st.table(top_times[top_times['Event'] == '200 Breaststroke SCY'].groupby('Team')['Points'].sum().sort_values(ascending=False))
     if event == '100 Fly':
-        st.table(pd.read_csv('100 Butterfly SCY_' + gen.lower() + '_points.csv', index_col=False).sort_values(['Points'], ascending=[False]))
+        st.table(top_times[top_times['Event'] == '100 Butterfly SCY'].groupby('Team')['Points'].sum().sort_values(ascending=False))
     if event == '200 Fly':
-        st.table(pd.read_csv('200 Butterfly SCY_' + gen.lower() + '_points.csv', index_col=False).sort_values(['Points'], ascending=[False]))
+        st.table(top_times[top_times['Event'] == '200 Butterfly SCY'].groupby('Team')['Points'].sum().sort_values(ascending=False))
     if event == '200 IM':
-        st.table(pd.read_csv('200 Individual Medley SCY_' + gen.lower() + '_points.csv', index_col=False).sort_values(['Points'], ascending=[False]))
+        st.table(top_times[top_times['Event'] == '200 Individual Medley SCY'].groupby('Team')['Points'].sum().sort_values(ascending=False))
     if event == '400 IM':
-        st.table(pd.read_csv('400 Individual Medley SCY_' + gen.lower() + '_points.csv', index_col=False).sort_values(['Points'], ascending=[False]))
+        st.table(top_times[top_times['Event'] == '400 Individual Medley SCY'].groupby('Team')['Points'].sum().sort_values(ascending=False))
     if event == '200 Medley Relay':
-        st.table(pd.read_csv('200 Medley Relay_' + gen.lower() + '_points.csv', index_col=False).sort_values(['Points'], ascending=[False]))
+        st.table(top_times[top_times['Event'] == '200 Medley Relay'].groupby('Team')['Points'].sum().sort_values(ascending=False))
     if event == '400 Medley Relay':
-        st.table(pd.read_csv('400 Medley Relay_' + gen.lower() + '_points.csv', index_col=False).sort_values(['Points'], ascending=[False]))
+        st.table(top_times[top_times['Event'] == '400 Medley Relay'].groupby('Team')['Points'].sum().sort_values(ascending=False))
     if event == '200 Free Relay':
-        st.table(pd.read_csv('200 Free Relay_' + gen.lower() + '_points.csv', index_col=False).sort_values(['Points'], ascending=[False]))
+        st.table(top_times[top_times['Event'] == '200 Free Relay'].groupby('Team')['Points'].sum().sort_values(ascending=False))
     if event == '400 Free Relay':
-        st.table(pd.read_csv('400 Free Relay_' + gen.lower() + '_points.csv', index_col=False).sort_values(['Points'], ascending=[False]))
+        st.table(top_times[top_times['Event'] == '400 Free Relay'].groupby('Team')['Points'].sum().sort_values(ascending=False))
     if event == '800 Free Relay':
-        st.table(pd.read_csv('800 Free Relay_' + gen.lower() + '_points.csv', index_col=False).sort_values(['Points'], ascending=[False]))
+        st.table(top_times[top_times['Event'] == '800 Free Relay'].groupby('Team')['Points'].sum().sort_values(ascending=False))
     if event == '1 Meter':
-        st.table(pd.read_csv('1 Meter_' + gen.lower() + '_points.csv', index_col=False).sort_values(['Points'], ascending=[False]))
+        st.table(top_times[top_times['Event'] == '1 Meter'].groupby('Team')['Points'].sum().sort_values(ascending=False))
     if event == '3 Meter':
-        st.table(pd.read_csv('3 Meter_' + gen.lower() + '_points.csv', index_col=False).sort_values(['Points'], ascending=[False]))
+        st.table(top_times[top_times['Event'] == '3 Meter'].groupby('Team')['Points'].sum().sort_values(ascending=False))
     if event == 'Platform':
-        st.table(pd.read_csv('Platform_' + gen.lower() + '_points.csv', index_col=False).sort_values(['Points'], ascending=[False]))
+        st.table(top_times[top_times['Event'] == 'Platform'].groupby('Team')['Points'].sum().sort_values(ascending=False))
     
     
     st.write('Scoring break down for all events:')
